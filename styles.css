@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+.untitled-page {
+    &.mainContentSection {
+      display: flex;
+      font-family: "Figtree", serif;
+      flex-direction: column;
+      background-color: rgb(244 208 78);
+      overflow: hidden;
+    }
+  
+    .contentBlock {
+      display: flex;
+      flex-direction: column;
+      margin: 219px auto;
+      width: 384px;
+      max-width: 85%;
+      background-color: rgb(255 255 255);
+      outline-offset: -1px;
+      border-radius: 20px;
+      box-shadow: 8px 8px 0 0 rgb(0 0 0 / 100%);
+      outline: rgb(17 17 17) solid 1px;
+  
+      @include md {
+        position: relative;
+        margin: 150px auto;
+      }
+  
+      @include xs {
+        margin: 80px auto;
+      }
+  
+      @include tn {
+        margin: 50px auto;
+      }
+    }
+  
+    .contentColumn {
+      display: flex;
+      flex-direction: column;
+      row-gap: 24px;
+      margin: 24px;
+  
+      @include xs {
+        position: relative;
+        margin: 24px 16px;
+      }
+  
+      @include tn {
+        margin: 24px 8px;
+      }
+    }
+  
+    .illustrationImg {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  
+    .textContentColumn {
+      display: flex;
+      flex-direction: column;
+      row-gap: 12px;
+    }
+    .titleBlock {
+        display: flex;
+        flex-direction: column;
+        width: 82px;
+        max-width: 85%;
+        background-color: #F9E79F; /* Color más claro */
+        border-radius: 4px;
+ }
+      
+      .titleBlock:hover {
+        background-color: #F4D04E; /* Color más intenso */
+        color: #000000; /* Color de texto más intenso */
+    }
+    .articleTitle {
+      display: flex;
+      justify-content: center;
+      margin: 4px 12px;
+      font: 800 14px/1.5 Figtree, Helvetica, Arial, serif;
+      color: rgb(17 17 17);
+      text-align: center;
+  
+      @include tn {
+        position: relative;
+        margin: 4px 8px;
+      }
+      .articleTitle:hover {
+        color: rgb(244 208 78);
+      }
+    }
+  
+    .publicationDate {
+      font: 500 14px/1.5 Figtree, Helvetica, Arial, serif;
+      color: rgb(17 17 17);
+    }
+  
+    .topicOverview {
+      font: 800 24px/1.5 Figtree, Helvetica, Arial, serif;
+      color: rgb(17 17 17);
+    cursor: pointer;}
+  
+      .topicOverview:hover {
+        color: rgb(244 208 78);
+      }
+
+      @include md {
+        align-items: flex-start;
+        font-size: 22px;
+      }
+  
+      @include xxs {
+        font-size: 20px;
+      }
+    }
+  
+    .articleDescription {
+      font: 500 16px/1.5 Figtree, Helvetica, Arial, serif;
+      color: rgb(107 107 107);
+    }
+  
+    .authorInfoColumn {
+      display: flex;
+      align-items: center;
+      column-gap: 12px;
+  
+      @include tn {
+        column-gap: 8px;
+      }
+    }
+  
+    .authorImg {
+      width: 32px;
+      border-radius: 16px;
+      object-fit: cover;
+    }
+  
+    .authorNameInfo {
+      width: 85px;
+      font: 800 14px/1.5 Figtree, Helvetica, Arial, serif;
+      color: rgb(17 17 17);
+    }
+  }
