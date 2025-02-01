@@ -52,7 +52,6 @@ Use this section to recap over some of your major learnings while working throug
 ## Author
 
 - Website - [Jony Reyes ](https://front-end-jony-reyes-yqg8.vercel.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@JonRe88](https://www.frontendmentor.io/profile/JonRe88)
+- Frontend Mentor - [@JonRe88](https://www.frontendmentor.io/profile/JonRe88)
 
 
